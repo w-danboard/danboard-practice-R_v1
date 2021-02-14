@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,             // 是否是严格模式
+    "noImplicitAny": true,      
+    "strictNullChecks": true,
+    "module": "CommonJS",
+    "target": "ES5",
+    "jsx": "react",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
